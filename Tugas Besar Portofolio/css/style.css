@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 40px;
+  z-index: 100000;
+  background-color: orange;
+  position: fixed;
+  padding-bottom: 10px;
+}
+.header-logo {
+  color: black;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  float: left;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+ul li a {
+  color: black;
+}
+.navbar {
+  float: left;
+  padding-right: 20px;
+}
+.nav {
+  margin-left: 840px;
+}
+.home-area,
+.bio-area,
+.about-area,
+.hobby-area,
+.contact-area {
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+.home-area {
+  background-image: url(../img/home.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.text-home {
+  margin-left: 65px;
+  margin-top: 100px;
+}
+.text-home a {
+  color: goldenrod;
+}
+.text-home h1 {
+  font-size: 50px;
+  padding-bottom: 0px;
+  margin-right: 100px;
+  padding-top: 220px;
+}
+.text-home .description {
+  padding-top: 15px;
+}
+.text-home h3 {
+  padding-top: 10px;
+}
+.text-home h1,
+h3,
+p,
+h4 {
+  margin-left: 200px;
+}
+.bio-area {
+  background-image: url(../img/bio.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.text-bio {
+  margin-left: 950px;
+  margin-top: 120px;
+}
+.text-bio p {
+  font-size: 100%;
+  padding-top: 20px;
+}
+.text-bio h1 {
+  font-size: 150%;
+}
+.text-bio .name {
+  margin-top: 50px;
+}
+.about-area {
+  background-image: url(../img/Desain\ tanpa\ judul.png);
+  width: 100%;
+  height: 100hz;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: block;
+}
+
+.text-about {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.text-about h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-indent: 50px;
+}
+.hobby-area {
+  background-image: url(../img/hobby.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.contact-area {
+  background-image: url(../img/Desain\ tanpa\ judul.png);
+}
+.text-hobby {
+  margin-left: 100px;
+  margin-top: 100px;
+  max-width: 650px;
+  padding-top: 170px;
+}
+.text-contact {
+  margin-left: 65px;
+  margin-top: 100px;
+}
+
+.parag {
+  background-color: #ffe4ba;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 200px;
+  line-height: 50px;
+  padding: 50px 10px;
+}
+
+.parag p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+  margin: 0;
+}
+
+.text-contact p{
+  font-size: 20px;
+}
